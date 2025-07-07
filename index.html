@@ -14,10 +14,11 @@
   <body>
     <!-- header starts -->
     <header>
+      <!-- nac bar starts -->
       <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
           <!-- logo -->
-          <img src="imgs/code_logo.png" alt="Bootstrap" width="30" height="24">
+          <img src="imgs/l.png" alt="Bootstrap" width="40px" height="40px" style="margin-right: 10px;">
           <a class="navbar-brand" href="index.html">StartCoding</a>
           <button class="navbar-toggler" type="button"
             data-bs-toggle="collapse"
@@ -68,23 +69,24 @@
               <!-- this is my trial -->
               <li>
                 <!-- search bar & button -->
-                <form class="d-flex ps-5" role="search" data-bs-theme="light">
-                  <input class="form-control me-2" type="search"
+                <form class="d-flex ps-5" role="search">
+                  <input class="form-control me-2" data-bs-theme="light" type="search"
                     placeholder="Search" aria-label="Search" />
-                  <button class="btn btn-outline-light text-white"
-                    type="submit">Search</button>
+                  <button class="btn btn-outline-light"
+                    type="submit" >Search</button>
                 </form>
               </li>
             </ul>
 
             <!-- sign in button -->
             <form class="d-flex ps-5" role="search">
-              <button class="btn btn-outline-light text-white"
+              <button class="btn btn-outline-light"
                 type="submit">Sign In</button>
             </form>
           </div>
         </div>
       </nav>
+      <!-- nav bar ends -->
     </header>
     <!-- header ends -->
 
@@ -234,20 +236,23 @@
 
       <!-- + user section starts -->
        <section>
-         <div class="container-fluid " style="background-image: url('imgs/slider/slider_img.jpg'); padding-top: 100px; padding-bottom: 100px;">
+         <div class="container-fluid" style="background-image: url('imgs/slider/slider_img.jpg'); padding-top: 50px; padding-bottom: 50px; background-size: cover;">
           <div class="row">
             <div class="col-md-12 text-white" >
               <h1 class="text-center pb-2">Become a Plus User</h1>
               <h3 class="text-center pb-5">And unlock powerful features:</h3>
-              <ul style="padding-left: 530px; font-size: 25px;">
-                  <li>Browse W3Schools without ads</li>
+              <ul style="padding-left: 530px; font-size: 25px;" class="pb-5">
+                  <li>Browse StartCoding without ads</li>
                   <li>Build and host Websites</li>
                   <li>Unlimited challenges</li>
                   <li>Unlimited practice tests</li>
                   <li>Get extra credits</li>
                   <li>Priority support</li>
             </ul>
-            <button type="button" class="btn btn-warning text-center">Learn More</button>
+            <div class="text-center">
+              <button type="button" class="btn btn-warning rounded-pill" style="padding-left: 90px; padding-right: 90px;">Learn More</button>
+            </div>
+            
             </div>
           </div>
          </div>
@@ -260,9 +265,50 @@
 
     <!-- footer starts -->
     <section>
-      <div class="container">
-        <div class="row"></div>
+      <div class="container-fluid bg-dark text-white">
+        <div class="row" style="padding-left: 230px; padding-right: 230px;">
+          <div class="col-md-3">
+              <img src="imgs/l.png" alt="Bootstrap" width="40px" height="40px" style="margin-right: 10px;">
+          </div>
+          <div class="col-md-3 text-warning text-decoration-underline"><p>PLUS</p></div>
+          <div class="col-md-3 text-warning text-decoration-underline"><p>GET CERTIFIED</p></div>
+          <div class="col-md-3 text-warning text-decoration-underline"><p>CONTACT US</p></div>
+
+          <div class="col-md-3">
+            <ul>
+              <li>Top Tutorials</li>
+              <li>HTML Tutorial</li>
+              <li>CSS Tutorial</li>
+              <li>JavaScript Tutorial</li>
+              <li>How To Tutorial</li>
+              <li>Bootstrap Tutorial</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Top References</li>
+              <li>HTML Reference</li>
+              <li>CSS Reference</li>
+              <li>JavaScript Reference</li>
+              <li>Bootstrap Reference</li>
+              
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Top Examples</li>
+              <li>HTML Examples</li>
+              <li>CSS Examples</li>
+              <li>JavaScript Examples</li>
+              <li>How To Examples</li>
+              <li>Bootstrap Examples</li>
+            </ul>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
       </div>
+
+      
     </section>
     <!-- footer ends -->
     <script
