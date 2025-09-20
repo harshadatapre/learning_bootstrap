@@ -1,0 +1,7 @@
+.ptr {
+    cursor: pointer;
+}
+
+.hover:ptr {
+    color: lightyellow;
+}
