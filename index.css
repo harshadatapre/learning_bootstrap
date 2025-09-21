@@ -2,6 +2,7 @@
     cursor: pointer;
 }
 
-.hover:ptr {
-    color: lightyellow;
+.ptr:hover {
+    color: rgb(254, 254, 77);
 }
+
