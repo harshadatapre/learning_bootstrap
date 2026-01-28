@@ -6,3 +6,10 @@
     color: rgb(254, 254, 77);
 }
 
+.ptr:active {
+    color:darkorange;
+}
+
+
+
+
